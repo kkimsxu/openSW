@@ -1,0 +1,6 @@
+package _08.banking;
+
+public interface BankAccountSpecification {
+    public void deposit(int amount);
+    public boolean withdraw(int amount);
+}
